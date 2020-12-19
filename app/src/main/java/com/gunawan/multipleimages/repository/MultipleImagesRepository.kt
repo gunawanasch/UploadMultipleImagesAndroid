@@ -1,7 +1,7 @@
-package com.gunawan.multipleimages.repository.remote
+package com.gunawan.multipleimages.repository
 
-import com.gunawan.multipleimages.model.RespMultipleImagesModel
-import com.gunawan.multipleimages.network.ApiService
+import com.gunawan.multipleimages.repository.remote.model.RespMultipleImagesModel
+import com.gunawan.multipleimages.repository.remote.ApiService
 import io.reactivex.Observable
 import okhttp3.MediaType
 import okhttp3.MultipartBody

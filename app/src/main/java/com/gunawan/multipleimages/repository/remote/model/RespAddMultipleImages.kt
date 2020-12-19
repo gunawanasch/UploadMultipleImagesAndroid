@@ -1,4 +1,4 @@
-package com.gunawan.multipleimages.model
+package com.gunawan.multipleimages.repository.remote.model
 
 import com.google.gson.annotations.SerializedName
 

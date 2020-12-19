@@ -5,10 +5,9 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.OnLifecycleEvent
 import androidx.lifecycle.ViewModel
 import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
-import com.gunawan.multipleimages.model.RespAddMultipleImages
-import com.gunawan.multipleimages.model.RespMultipleImagesModel
-import com.gunawan.multipleimages.repository.remote.MultipleImagesRepository
+import com.gunawan.multipleimages.repository.remote.model.RespAddMultipleImages
+import com.gunawan.multipleimages.repository.remote.model.RespMultipleImagesModel
+import com.gunawan.multipleimages.repository.MultipleImagesRepository
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers

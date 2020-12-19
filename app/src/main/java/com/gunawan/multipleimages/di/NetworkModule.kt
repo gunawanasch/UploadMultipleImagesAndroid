@@ -1,6 +1,6 @@
 package com.gunawan.multipleimages.di
 
-import com.gunawan.multipleimages.network.ApiService
+import com.gunawan.multipleimages.repository.remote.ApiService
 import io.reactivex.schedulers.Schedulers
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

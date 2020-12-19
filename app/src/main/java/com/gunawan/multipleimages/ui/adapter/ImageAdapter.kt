@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.gunawan.multipleimages.databinding.RowImageBinding
-import com.gunawan.multipleimages.model.ListImageItem
+import com.gunawan.multipleimages.repository.remote.model.ListImageItem
 
 class ImageAdapter(private val listImage: List<ListImageItem>) : RecyclerView.Adapter<ImageAdapter.ViewHolder>() {
 

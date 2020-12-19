@@ -5,8 +5,8 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.gunawan.multipleimages.databinding.RowMultipleImagesBinding
-import com.gunawan.multipleimages.model.ListImageItem
-import com.gunawan.multipleimages.model.RespMultipleImagesModel
+import com.gunawan.multipleimages.repository.remote.model.ListImageItem
+import com.gunawan.multipleimages.repository.remote.model.RespMultipleImagesModel
 
 class MainAdapter(private val listMultpleImages: List<RespMultipleImagesModel>) : RecyclerView.Adapter<MainAdapter.ViewHolder>() {
     private lateinit var adapter: ImageAdapter

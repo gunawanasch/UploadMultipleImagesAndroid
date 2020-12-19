@@ -1,6 +1,6 @@
-package com.gunawan.multipleimages.network
+package com.gunawan.multipleimages.repository.remote
 
-import com.gunawan.multipleimages.model.RespMultipleImagesModel
+import com.gunawan.multipleimages.repository.remote.model.RespMultipleImagesModel
 import io.reactivex.Observable
 import okhttp3.MultipartBody
 import okhttp3.RequestBody

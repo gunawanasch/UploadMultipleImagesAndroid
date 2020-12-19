@@ -1,16 +1,16 @@
-package com.gunawan.multipleimages.model
+package com.gunawan.multipleimages.repository.remote.model
 
 import com.google.gson.annotations.SerializedName
 
 data class RespMultipleImagesModel(
 
-	@field:SerializedName("list_image")
+    @field:SerializedName("list_image")
 	val listImage: List<ListImageItem?>? = null,
 
-	@field:SerializedName("name")
+    @field:SerializedName("name")
 	val name: String? = null,
 
-	@field:SerializedName("id_title")
+    @field:SerializedName("id_title")
 	val idTitle: String? = null
 )
 
