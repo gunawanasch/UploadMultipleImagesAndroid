@@ -2,7 +2,7 @@ package com.gunawan.multipleimages.repository.remote.model
 
 import com.google.gson.annotations.SerializedName
 
-data class RespAddMultipleImages(
+data class RespAddMultipleImagesModel(
 
 	@field:SerializedName("message")
 	val message: String? = null,
