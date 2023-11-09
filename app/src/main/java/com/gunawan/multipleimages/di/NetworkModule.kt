@@ -26,7 +26,7 @@ val networkModule = module {
 
     single {
         Retrofit.Builder()
-            .baseUrl("https://base_api_url/")
+            .baseUrl("https://apici.teknoguna.com/api_upload_multiple_images/")
             .client(get())
             .addConverterFactory(GsonConverterFactory.create())
             .addCallAdapterFactory(RxJava2CallAdapterFactory.createWithScheduler(Schedulers.io()))

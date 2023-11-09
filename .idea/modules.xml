@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UploadMultipleImagesAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/UploadMultipleImagesAndroid.iml" group="UploadMultipleImagesAndroid" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="UploadMultipleImagesAndroid/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/UploadMultipleImagesAndroid.iml" filepath="$PROJECT_DIR$/.idea/modules/UploadMultipleImagesAndroid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UploadMultipleImagesAndroid.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UploadMultipleImagesAndroid.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UploadMultipleImagesAndroid.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UploadMultipleImagesAndroid.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UploadMultipleImagesAndroid.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UploadMultipleImagesAndroid.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/UploadMultipleImagesAndroid.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/UploadMultipleImagesAndroid.app.unitTest.iml" />
     </modules>
   </component>
 </project>
